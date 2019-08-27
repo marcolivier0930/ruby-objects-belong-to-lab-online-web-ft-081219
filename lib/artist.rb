@@ -7,4 +7,4 @@ class Artist
   end
 end
 artist = Artist.new("Beyonce")
-song = Song.new(song,artist)
+song = Song.new(songs,artist)
