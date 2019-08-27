@@ -19,4 +19,4 @@ class Song
 end
 songs = Song.new("7/11")
 artist = Artist.new("Beyonce")
-song = Song.new(songs,artist)
+song = Song.new(artist, songs)
