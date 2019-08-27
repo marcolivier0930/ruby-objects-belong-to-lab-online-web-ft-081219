@@ -17,5 +17,6 @@ class Song
     artist.song << self 
   end
 end
+songs = Song.new("7/11")
 artist = Artist.new("Beyonce")
 song = Song.new(songs,artist)
