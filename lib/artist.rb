@@ -7,3 +7,4 @@ class Artist
   end
 end
 artist = Artist.new("Beyonce")
+song = Song.new()
