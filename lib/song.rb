@@ -8,3 +8,5 @@ class Song
     artist.song << self 
   end
 end
+
+song = Song.new("7/11")
